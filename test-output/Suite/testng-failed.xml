@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.ni.qa.testcases.OpeningPageTest">
+        <methods>
+          <include name="verifyclickauto"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.ni.qa.testcases.OpeningPageTest -->
+      <class name="com.ni.qa.testcases.CarInfoPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="verifyClickonAgreebtn"/>
+        </methods>
+      </class> <!-- com.ni.qa.testcases.CarInfoPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
